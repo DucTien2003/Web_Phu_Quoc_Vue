@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* reset css addition */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Play", sans-serif;
+  font-size: 62.5%;
+}
+
+a,
+img {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: none;
+}
+/* End reset css */
+
+.container,
+.row {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-w-700 {
+  font-weight: 700;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  min-height: auto;
+  width: 100%;
+  background-color: rgb(237, 233, 227);
+}
+
+/* responsive */
+/* < md */
+@media (max-width: 767px) {
+  .sm-d-flex {
+    display: flex;
+  }
+
+  .sm-height-200 {
+    height: 200px;
+  }
+
+  .hide-md-down {
+    display: none;
+  }
+
+  .header__menu {
+    width: 27px;
+  }
+
+  .header__menu img {
+    width: 100%;
+  }
+
+  .header-inner {
+    flex-direction: row-reverse;
+  }
+
+  .header__logo {
+    flex: 1;
+  }
+
+  .banner-item-half {
+    height: 100%;
+  }
+
+  .contact {
+    margin-top: 580px;
+  }
+
+  .banner-block {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .sub-recomment__img img {
+    border: none;
+    margin-top: 20px;
+  }
+
+  .footer__inner-2 {
+    flex-direction: column;
+  }
+}
+
+/* >= md */
+@media (min-width: 768px) {
+  .hide-md-up {
+    display: none;
+  }
+}
+
+/* < lg */
+@media (max-width: 991px) {
+  .blog__sidebar {
+    display: none;
+  }
+}
