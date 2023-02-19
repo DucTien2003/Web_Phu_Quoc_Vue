@@ -281,7 +281,9 @@
                 alt="img"
               />
               <button class="banner-btn f-w-700">
-                <a href="/">Thuê xe 4 chỗ</a>
+                <router-link tag="a" :to="{ name: 'home' }"
+                  >Thuê xe 4 chỗ</router-link
+                >
               </button>
             </div>
           </div>
@@ -292,7 +294,9 @@
                 alt="img"
               />
               <button class="banner-btn f-w-700">
-                <a href="/">Thuê xe 5 chỗ</a>
+                <router-link tag="a" :to="{ name: 'home' }"
+                  >Thuê xe 5 chỗ</router-link
+                >
               </button>
             </div>
             <div class="banner-item banner-item-half">
@@ -301,7 +305,9 @@
                 alt="img"
               />
               <button class="banner-btn f-w-700">
-                <a href="/">Thuê xe 7 chỗ</a>
+                <router-link tag="a" :to="{ name: 'home' }"
+                  >Thuê xe 7 chỗ</router-link
+                >
               </button>
             </div>
           </div>
@@ -312,7 +318,9 @@
                 alt="img"
               />
               <button class="banner-btn f-w-700">
-                <a href="/">Thuê xe 16 chỗ</a>
+                <router-link tag="a" :to="{ name: 'home' }"
+                  >Thuê xe 16 chỗ</router-link
+                >
               </button>
             </div>
           </div>
@@ -326,7 +334,9 @@
           <p class="f-w-700">HÃY LIÊN HỆ VỚI CHÚNG TÔI KHI</p>
           <h1 class="f-w-700">Bạn Đang Cần Thuê Xe Du Lịch</h1>
           <button class="btn btn-success">
-            <a class="f-w-700" href="/">HOTLINE: 0914299909- 0984299909</a>
+            <router-link tag="a" :to="{ name: 'home' }" class="f-w-700"
+              >HOTLINE: 0914299909- 0984299909</router-link
+            >
           </button>
         </div>
       </section>

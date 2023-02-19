@@ -3,11 +3,13 @@
     <div class="detail-blog">
       <div class="row flex-column content-center">
         <h6 class="blog__item__link content-center">
-          <a class="f-w-700" href="./blog.html">BLOG</a>
+          <router-link tag="a" :to="{ name: 'blog' }" class="f-w-700"
+            >BLOG</router-link
+          >
         </h6>
         <h2 class="blog__item__heading f-w-700 text-center">
-          <a href="./detail-blog.html"
-            >Đi Phú Quốc mặc gì để có ảnh nghìn like</a
+          <router-link tag="a" :to="{ name: 'detail-blog' }"
+            >Đi Phú Quốc mặc gì để có ảnh nghìn like</router-link
           >
         </h2>
         <div class="blog__divider"></div>
@@ -22,9 +24,11 @@
             đẹp đầy ấn tượng, đây là nơi checkin cực kỳ được ưa chuộng của nhiều
             cô nàng đam mê “sống ảo”. Vậy đi Phú Quốc mặc gì cho đẹp, cho hợp
             với phong cảnh. Bài viết sau đây,
-            <a href="./">Thuê xe du lịch Phú Quốc</a> sẽ bật mí cho bạn cách
-            phối đồ “chất như nước cất” để bạn có thể sống ảo “thả phanh” khi
-            đến với Phú Quốc xinh đẹp nhé!
+            <router-link tag="a" :to="{ name: 'home' }"
+              >Thuê xe du lịch Phú Quốc</router-link
+            >
+            sẽ bật mí cho bạn cách phối đồ “chất như nước cất” để bạn có thể
+            sống ảo “thả phanh” khi đến với Phú Quốc xinh đẹp nhé!
           </p>
           <h1 class="detail__title f-w-700 m-b-24">
             1. Đi du lịch Phú Quốc mặc gì
@@ -37,8 +41,11 @@
             các nàng có thể lựa chọn những món đồ bơi phù hợp với bản thân mình.
           </p>
           <p class="detail__text m-b-24">
-            Xem ngay: [Chia sẻ] <a href="/">Nên thuê cano hay tàu</a> ở Phú
-            Quốc?
+            Xem ngay: [Chia sẻ]
+            <router-link tag="a" :to="{ name: 'home' }"
+              >Nên thuê cano hay tàu</router-link
+            >
+            ở Phú Quốc?
           </p>
           <div class="detail__img content-center flex-column">
             <img
@@ -85,10 +92,12 @@
           <h3 class="detail__title-sub f-w-700 m-b-24">Đầm maxi dài</h3>
           <p class="detail__text m-b-24">
             Để trả lời cho câu hỏi
-            <a href="./detail-blog.html">du lịch Phú Quốc mặc gì</a> thì những
-            chiếc đầm maxi luôn là câu trả lời hoàn hảo nhất. Không chỉ tôn lên
-            xương quai xanh quyến rũ mà một chiếc đầm trễ vai cũng tôn lên được
-            vóc dáng hoàn hảo của các nàng đấy.
+            <router-link tag="a" :to="{ name: 'detail-blog' }"
+              >du lịch Phú Quốc mặc gì</router-link
+            >
+            thì những chiếc đầm maxi luôn là câu trả lời hoàn hảo nhất. Không
+            chỉ tôn lên xương quai xanh quyến rũ mà một chiếc đầm trễ vai cũng
+            tôn lên được vóc dáng hoàn hảo của các nàng đấy.
           </p>
           <div class="detail__img content-center flex-column">
             <img
@@ -153,8 +162,11 @@
             chiếc babydoll trắng, đỏ, vàng tùy ý, rồi đứng trước background biển
             trời. Lo gì không săn được những bức ảnh “triệu like” bạn nhỉ?
             <br /><br />
-            Xem ngay: <a href="/">Tìm hiểu dịch vụ thuê xe 16 chỗ</a> cho gia
-            đình và bạn bè khi du lịch tại Phú Quốc
+            Xem ngay:
+            <router-link tag="a" :to="{ name: 'home' }"
+              >Tìm hiểu dịch vụ thuê xe 16 chỗ</router-link
+            >
+            cho gia đình và bạn bè khi du lịch tại Phú Quốc
           </p>
           <h3 class="detail__title-sub f-w-700 m-b-24">Jumpsuit họa tiết</h3>
           <p class="detail__text m-b-24">
@@ -210,7 +222,11 @@
             </li>
           </ul>
           <p class="detail__text m-b-24">
-            Xem ngay: <a href="/">Đi Phú Quốc mùa nào đẹp</a> và lý tưởng nhất
+            Xem ngay:
+            <router-link tag="a" :to="{ name: 'home' }"
+              >Đi Phú Quốc mùa nào đẹp</router-link
+            >
+            và lý tưởng nhất
           </p>
           <h1 class="detail__title f-w-700 m-b-24">
             3. Những địa điểm checkin đẹp trên đảo Phú Quốc

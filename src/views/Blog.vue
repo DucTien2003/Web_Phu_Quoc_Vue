@@ -12,18 +12,20 @@
               <div class="blog__main col-lg-9 flex-column content-center">
                 <div class="blog__item flex-column content-center">
                   <h6 class="blog__item__link">
-                    <a class="f-w-700" href="./blog.html">BLOG</a>
+                    <router-link tag="a" :to="{ name: 'blog' }" class="f-w-700"
+                      >BLOG
+                    </router-link>
                   </h6>
                   <h2 class="blog__item__heading f-w-700 text-center">
-                    <a href="./detail-blog.html"
-                      >Đi Phú Quốc mặc gì để có ảnh nghìn like</a
-                    >
+                    <router-link tag="a" :to="{ name: 'detail-blog' }">
+                      >Đi Phú Quốc mặc gì để có ảnh nghìn like
+                    </router-link>
                   </h2>
                   <div class="blog__divider"></div>
                   <p class="blog__item__subtitle">
-                    <a href="./blog.html"
-                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ QUỐC</a
-                    >
+                    <router-link tag="a" :to="{ name: 'blog' }"
+                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ QUỐC
+                    </router-link>
                   </p>
                   <div class="blog__item__img">
                     <img src="../assets/images/blog/blog_1.png" alt="image" />
@@ -35,28 +37,32 @@
                     Quốc mặc gì cho đẹp, cho hợp với phong cảnh. Bài viết sau
                     đây, Thuê […]
                   </div>
-                  <a
+                  <router-link
+                    tag="a"
                     class="blog__item__readmore f-w-700"
-                    href="./detail-blog.html"
+                    :to="{ name: 'detail-blog' }"
                   >
                     CONTINUE READING
                     <span class="meta-nav">→</span>
-                  </a>
+                  </router-link>
                 </div>
                 <div class="blog__item flex-column content-center">
                   <h6 class="blog__item__link">
-                    <a class="f-w-700" href="./blog.html">BLOG</a>
+                    <router-link tag="a" :to="{ name: 'blog' }" class="f-w-700"
+                      >BLOG</router-link
+                    >
                   </h6>
                   <h2 class="blog__item__heading f-w-700 text-center">
-                    <a href="./detail-blog.html"
+                    <router-link tag="a" :to="{ name: 'detail-blog' }"
                       >Top 5 nhà hàng Phú Quốc nổi tiếng, giá bình dân được yêu
-                      thích nhất</a
+                      thích nhất</router-link
                     >
                   </h2>
                   <div class="blog__divider"></div>
                   <p class="blog__item__subtitle">
-                    <a href="./blog.html"
-                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ QUỐC</a
+                    <router-link tag="a" :to="{ name: 'blog' }"
+                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ
+                      QUỐC</router-link
                     >
                   </p>
                   <div class="blog__item__img">
@@ -69,27 +75,32 @@
                     không chỉ bằng những bãi biển trong xanh, những khu resort
                     nghỉ mát nổi tiếng mà […]
                   </div>
-                  <a
+                  <router-link
+                    tag="a"
                     class="blog__item__readmore f-w-700"
-                    href="./detail-blog.html"
+                    :to="{ name: 'detail-blog' }"
                   >
                     CONTINUE READING
                     <span class="meta-nav">→</span>
-                  </a>
+                  </router-link>
                 </div>
                 <div class="blog__item flex-column content-center">
                   <h6 class="blog__item__link">
-                    <a class="f-w-700" href="./blog.html">BLOG</a>
+                    <router-link tag="a" :to="{ name: 'blog' }" class="f-w-700"
+                      >BLOG</router-link
+                    >
                   </h6>
                   <h2 class="blog__item__heading f-w-700 text-center">
-                    <a href="./detail-blog.html"
-                      >Top 15 bãi biển đẹp ở Phú Quốc không thể bỏ qua</a
+                    <router-link tag="a" :to="{ name: 'detail-blog' }"
+                      >Top 15 bãi biển đẹp ở Phú Quốc không thể bỏ
+                      qua</router-link
                     >
                   </h2>
                   <div class="blog__divider"></div>
                   <p class="blog__item__subtitle">
-                    <a href="./blog.html"
-                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ QUỐC</a
+                    <router-link tag="a" :to="{ name: 'blog' }"
+                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ
+                      QUỐC</router-link
                     >
                   </p>
                   <div class="blog__item__img">
@@ -102,27 +113,31 @@
                     nắng vàng mà Thuê xe du lịch Phú Quốc cung cấp tới bạn. Cùng
                     tham khảo […]
                   </div>
-                  <a
+                  <router-link
+                    tag="a"
                     class="blog__item__readmore f-w-700"
-                    href="./detail-blog.html"
+                    :to="{ name: 'detail-blog' }"
                   >
                     CONTINUE READING
                     <span class="meta-nav">→</span>
-                  </a>
+                  </router-link>
                 </div>
                 <div class="blog__item flex-column content-center">
                   <h6 class="blog__item__link">
-                    <a class="f-w-700" href="./blog.html">BLOG</a>
+                    <router-link tag="a" :to="{ name: 'blog' }" class="f-w-700"
+                      >BLOG</router-link
+                    >
                   </h6>
                   <h2 class="blog__item__heading f-w-700 text-center">
-                    <a href="./detail-blog.html"
+                    <router-link tag="a" :to="{ name: 'detail-blog' }"
                       >Kinh nghiệm đi làng chài Hàm Ninh từ A-Z bạn cần biết
-                    </a>
+                    </router-link>
                   </h2>
                   <div class="blog__divider"></div>
                   <p class="blog__item__subtitle">
-                    <a href="./blog.html"
-                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ QUỐC</a
+                    <router-link tag="a" :to="{ name: 'blog' }"
+                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ
+                      QUỐC</router-link
                     >
                   </p>
                   <div class="blog__item__img">
@@ -135,28 +150,32 @@
                     được những trải nghiệm tuyệt vời và thưởng thức rất nhiều
                     món ăn hải sản […]
                   </div>
-                  <a
+                  <router-link
+                    tag="a"
                     class="blog__item__readmore f-w-700"
-                    href="./detail-blog.html"
+                    :to="{ name: 'detail-blog' }"
                   >
                     CONTINUE READING
                     <span class="meta-nav">→</span>
-                  </a>
+                  </router-link>
                 </div>
                 <div class="blog__item flex-column content-center">
                   <h6 class="blog__item__link">
-                    <a class="f-w-700" href="./blog.html">BLOG</a>
+                    <router-link tag="a" :to="{ name: 'blog' }" class="f-w-700"
+                      >BLOG</router-link
+                    >
                   </h6>
                   <h2 class="blog__item__heading f-w-700 text-center">
-                    <a href="./detail-blog.html"
+                    <router-link tag="a" :to="{ name: 'detail-blog' }"
                       >Lặng ngắm san hô Phú Quốc - Trải nghiệm vui chơi đáng thử
-                      tại hòn đảo xanh</a
+                      tại hòn đảo xanh</router-link
                     >
                   </h2>
                   <div class="blog__divider"></div>
                   <p class="blog__item__subtitle">
-                    <a href="./blog.html"
-                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ QUỐC</a
+                    <router-link tag="a" :to="{ name: 'blog' }"
+                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ
+                      QUỐC</router-link
                     >
                   </p>
                   <div class="blog__item__img">
@@ -169,27 +188,31 @@
                     Đảo Ngọc. Tham khảo ngay bộ kinh nghiệm lặn ngắm san hô Phú
                     […]
                   </div>
-                  <a
+                  <router-link
+                    tag="a"
                     class="blog__item__readmore f-w-700"
-                    href="./detail-blog.html"
+                    :to="{ name: 'detail-blog' }"
                   >
                     CONTINUE READING
                     <span class="meta-nav">→</span>
-                  </a>
+                  </router-link>
                 </div>
                 <div class="blog__item flex-column content-center">
                   <h6 class="blog__item__link">
-                    <a class="f-w-700" href="./blog.html">BLOG</a>
+                    <router-link tag="a" :to="{ name: 'blog' }" class="f-w-700"
+                      >BLOG</router-link
+                    >
                   </h6>
                   <h2 class="blog__item__heading f-w-700 text-center">
-                    <a href="./detail-blog.html"
-                      >Top 4 hòn đảo Phú Quốc đẹp tựa thiên đường</a
+                    <router-link tag="a" :to="{ name: 'detail-blog' }"
+                      >Top 4 hòn đảo Phú Quốc đẹp tựa thiên đường</router-link
                     >
                   </h2>
                   <div class="blog__divider"></div>
                   <p class="blog__item__subtitle">
-                    <a href="./blog.html"
-                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ QUỐC</a
+                    <router-link tag="a" :to="{ name: 'blog' }"
+                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ
+                      QUỐC</router-link
                     >
                   </p>
                   <div class="blog__item__img">
@@ -202,27 +225,31 @@
                     dưới đây Thuê xe du lịch Phú Quốc sẽ mách bạn 4 hòn đảo đẹp
                     nhất Phú […]
                   </div>
-                  <a
+                  <router-link
+                    tag="a"
                     class="blog__item__readmore f-w-700"
-                    href="./detail-blog.html"
+                    :to="{ name: 'detail-blog' }"
                   >
                     CONTINUE READING
                     <span class="meta-nav">→</span>
-                  </a>
+                  </router-link>
                 </div>
                 <div class="blog__item flex-column content-center">
                   <h6 class="blog__item__link">
-                    <a class="f-w-700" href="./blog.html">BLOG</a>
+                    <router-link tag="a" :to="{ name: 'blog' }" class="f-w-700"
+                      >BLOG</router-link
+                    >
                   </h6>
                   <h2 class="blog__item__heading f-w-700 text-center">
-                    <a href="./detail-blog.html"
+                    <router-link tag="a" :to="{ name: 'detail-blog' }"
                       >Top 8 đặc sản Phú Quốc mua về làm quà xịn sò nhất
-                    </a>
+                    </router-link>
                   </h2>
                   <div class="blog__divider"></div>
                   <p class="blog__item__subtitle">
-                    <a href="./blog.html"
-                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ QUỐC</a
+                    <router-link tag="a" :to="{ name: 'blog' }"
+                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ
+                      QUỐC</router-link
                     >
                   </p>
                   <div class="blog__item__img">
@@ -235,28 +262,32 @@
                     quà tặng, lưu niệm cho mọi người? Thì đây, Thuê xe du lịch
                     Phú Quốc gợi […]
                   </div>
-                  <a
+                  <router-link
+                    tag="a"
                     class="blog__item__readmore f-w-700"
-                    href="./detail-blog.html"
+                    :to="{ name: 'detail-blog' }"
                   >
                     CONTINUE READING
                     <span class="meta-nav">→</span>
-                  </a>
+                  </router-link>
                 </div>
                 <div class="blog__item flex-column content-center">
                   <h6 class="blog__item__link">
-                    <a class="f-w-700" href="./blog.html">BLOG</a>
+                    <router-link tag="a" :to="{ name: 'blog' }" class="f-w-700"
+                      >BLOG</router-link
+                    >
                   </h6>
                   <h2 class="blog__item__heading f-w-700 text-center">
-                    <a href="./detail-blog.html"
+                    <router-link tag="a" :to="{ name: 'detail-blog' }"
                       >Lưu ngay kinh nghiệm đi Phú Quốc bằng xe ô tô vô cùng hữu
-                      ích</a
+                      ích</router-link
                     >
                   </h2>
                   <div class="blog__divider"></div>
                   <p class="blog__item__subtitle">
-                    <a href="./blog.html"
-                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ QUỐC</a
+                    <router-link tag="a" :to="{ name: 'blog' }"
+                      >POSTED ON 31 THÁNG MƯỜI HAI, 2022 BY PHÚ
+                      QUỐC</router-link
                     >
                   </p>
                   <div class="blog__item__img">
@@ -269,42 +300,43 @@
                     dưới đây, Thuê xe Phú Quốc sẽ giới thiệu đến bạn kinh nghiệm
                     đi Phú […]
                   </div>
-                  <a
+                  <router-link
+                    tag="a"
                     class="blog__item__readmore f-w-700"
-                    href="./detail-blog.html"
+                    :to="{ name: 'detail-blog' }"
                   >
                     CONTINUE READING
                     <span class="meta-nav">→</span>
-                  </a>
+                  </router-link>
                 </div>
                 <div class="blog__pagination">
                   <ul class="d-flex content-center f-w-700">
-                    <a href="/"
+                    <router-link tag="a" :to="{ name: 'home' }"
                       ><li
                         class="blog__pagination__item content-center pagination__active"
                       >
                         1
-                      </li></a
+                      </li></router-link
                     >
-                    <a href="/"
+                    <router-link tag="a" :to="{ name: 'home' }"
                       ><li class="blog__pagination__item content-center">
                         2
-                      </li></a
+                      </li></router-link
                     >
-                    <a href="/"
+                    <router-link tag="a" :to="{ name: 'home' }"
                       ><li class="blog__pagination__item content-center">
                         3
-                      </li></a
+                      </li></router-link
                     >
-                    <a href="/"
+                    <router-link tag="a" :to="{ name: 'home' }"
                       ><li class="blog__pagination__item content-center">
                         4
-                      </li></a
+                      </li></router-link
                     >
-                    <a href="/"
+                    <router-link tag="a" :to="{ name: 'home' }"
                       ><li class="blog__pagination__item content-center">
                         >
-                      </li></a
+                      </li></router-link
                     >
                   </ul>
                 </div>
@@ -320,10 +352,11 @@
                     </div>
                     <div class="blog__sidebar__text flex-column">
                       <div class="blog__sidebar__title">
-                        <a
-                          href="/blog.html"
+                        <router-link
+                          tag="a"
+                          :to="{ name: 'blog' }"
                           title="Đi Phú Quốc mặc gì để có ảnh nghìn like"
-                          >Đi Phú Quốc mặc gì để có ảnh nghìn like</a
+                          >Đi Phú Quốc mặc gì để có ảnh nghìn like</router-link
                         >
                       </div>
                       <div class="blog__sidebar__notify">
@@ -337,12 +370,13 @@
                     </div>
                     <div class="blog__sidebar__text flex-column">
                       <div class="blog__sidebar__title">
-                        <a
-                          href="/blog.html"
+                        <router-link
+                          tag="a"
+                          :to="{ name: 'blog' }"
                           title="Top 5 nhà hàng Phú Quốc nổi tiếng, giá bình dân được yêu thích
                             nhất"
                           >Top 5 nhà hàng Phú Quốc nổi tiếng, giá bình dân được
-                          yêu thích nhất</a
+                          yêu thích nhất</router-link
                         >
                       </div>
                       <div class="blog__sidebar__notify">
@@ -356,10 +390,12 @@
                     </div>
                     <div class="blog__sidebar__text flex-column">
                       <div class="blog__sidebar__title">
-                        <a
-                          href="/blog.html"
+                        <router-link
+                          tag="a"
+                          :to="{ name: 'blog' }"
                           title="Top 15 bãi biển đẹp ở Phú Quốc không thể bỏ qua"
-                          >Top 15 bãi biển đẹp ở Phú Quốc không thể bỏ qua</a
+                          >Top 15 bãi biển đẹp ở Phú Quốc không thể bỏ
+                          qua</router-link
                         >
                       </div>
                       <div class="blog__sidebar__notify">
@@ -373,11 +409,12 @@
                     </div>
                     <div class="blog__sidebar__text flex-column">
                       <div class="blog__sidebar__title">
-                        <a
-                          href="/blog.html"
+                        <router-link
+                          tag="a"
+                          :to="{ name: 'blog' }"
                           title="Kinh nghiệm đi làng chài Hàm Ninh từ A-Z bạn cần biết"
                           >Kinh nghiệm đi làng chài Hàm Ninh từ A-Z bạn cần
-                          biết</a
+                          biết</router-link
                         >
                       </div>
                       <div class="blog__sidebar__notify">
@@ -391,10 +428,12 @@
                     </div>
                     <div class="blog__sidebar__text flex-column">
                       <div class="blog__sidebar__title">
-                        <a
-                          href="/blog.html"
+                        <router-link
+                          tag="a"
+                          :to="{ name: 'blog' }"
                           title="Top 4 hòn đảo Phú Quốc đẹp tựa thiên đường"
-                          >Top 4 hòn đảo Phú Quốc đẹp tựa thiên đường</a
+                          >Top 4 hòn đảo Phú Quốc đẹp tựa thiên
+                          đường</router-link
                         >
                       </div>
                       <div class="blog__sidebar__notify">

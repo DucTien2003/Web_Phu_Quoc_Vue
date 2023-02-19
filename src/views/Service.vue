@@ -7,8 +7,11 @@
             Khi đi tham quan Phú Quốc cùng đoàn khách đông người, điều đầu tiên
             mà một trưởng đoàn cần quan tâm là thuê xe 16 chỗ Phú Quốc để tiện
             cho việc di chuyển của cả đoàn. Bài viết này của
-            <a href="/" class="service__text--link"
-              ><b><i>Thuê Xe Du Lịch Phú Quốc</i></b></a
+            <router-link
+              tag="a"
+              :to="{ name: 'home' }"
+              class="service__text--link"
+              ><b><i>Thuê Xe Du Lịch Phú Quốc</i></b></router-link
             >
             sẽ cung cấp cho bạn một số thông tin về dịch vụ
             <b>thuê xe 16 chỗ</b> cũng như địa chỉ thuê xe đảm bảo chất lượng
